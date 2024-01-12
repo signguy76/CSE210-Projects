@@ -4,6 +4,7 @@ using System.Globalization;
 class Program
 {
     static void Main(string[] args)
+    
     {
         Console.Write("What is your grade percentage? ");
         string yourGrade = Console.ReadLine();
@@ -36,7 +37,8 @@ class Program
             Console.WriteLine ($"your grade is an {letter}.");
         }
         {
-            Console.WriteLine ($"letter");
+            string letter = "test";
+            Console.WriteLine ($"{letter}");
         }
         
         
