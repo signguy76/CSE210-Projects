@@ -9,7 +9,7 @@ class Program
         string yourGrade = Console.ReadLine();
         int yourGradeNumber = int.Parse (yourGrade);
         // Test parse 
-        Console.Write($"At {yourGradeNumber} %, ");
+        Console.Write($"At {yourGradeNumber}%, ");
         if (yourGradeNumber > 90 || yourGradeNumber == 90)
         {
             string letter = "A";           
@@ -34,6 +34,9 @@ class Program
         {
             string letter = "F";
             Console.WriteLine ($"your grade is an {letter}.");
+        }
+        {
+            Console.WriteLine ($"letter");
         }
         
         
