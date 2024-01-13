@@ -6,6 +6,7 @@ class Program
     static void Main(string[] args)
     
     {
+        string letter = "";
         Console.Write("What is your grade percentage? ");
         string yourGrade = Console.ReadLine();
         int yourGradeNumber = int.Parse (yourGrade);
@@ -13,32 +14,32 @@ class Program
         Console.Write($"At {yourGradeNumber}%, ");
         if (yourGradeNumber > 90 || yourGradeNumber == 90)
         {
-            string letter = "A";           
-            Console.WriteLine ($"your grade is an {letter}.");
+            letter = "A";           
+            Console.WriteLine ($"Congradulations, you passed the course.");
         }
         else if (yourGradeNumber < 90 && yourGradeNumber > 80 || yourGradeNumber == 80)
         {
-            string letter = "B";
+            letter = "B";
             
-            Console.WriteLine ($"your grade is a {letter}.");
+            Console.WriteLine ($"Congradulations, you passed the course.");
         }else if (yourGradeNumber < 80 && yourGradeNumber > 70 || yourGradeNumber == 70)
         {
-            string letter = "C";
-            Console.WriteLine ($"your grade is a {letter}.");
+            letter = "C";
+            Console.WriteLine ($"Congradulations, you passed the course.");
         }
         else if (yourGradeNumber < 70 && yourGradeNumber > 60 || yourGradeNumber == 60)
         {
-            string letter = "D";
-            Console.WriteLine ($"your grade is a {letter}.");
+            letter = "D";
+            Console.WriteLine ($"you have not passed. You must have at least 70% to pass the class. Please re-enroll.");
         }
         else if (yourGradeNumber < 60 )
         {
-            string letter = "F";
-            Console.WriteLine ($"your grade is an {letter}.");
+            letter = "F";
+            Console.WriteLine ($"you have not passed. You must have at least 70% to pass the class. Please re-enroll.");
         }
         {
-            string letter = "test";
-            Console.WriteLine ($"{letter}");
+            
+            Console.WriteLine ($"Your final letter grade is {letter}.");
         }
         
         
