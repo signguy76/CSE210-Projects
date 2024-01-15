@@ -9,6 +9,7 @@ using System.Security.Cryptography.X509Certificates;
             public string _jobTitle;
             public int _startYear;
             public int _endYear;
+            public int _oneMore;
 
             public void Display()
             {
