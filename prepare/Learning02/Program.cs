@@ -1,10 +1,8 @@
 using System;
 using System.Security.Cryptography.X509Certificates;
 
-class Program
-{
-    static void Main(string[] args)
-    {
+
+
         public class Job
         {
             public string _company;
@@ -17,5 +15,4 @@ class Program
                 Console.WriteLine($"{_company}, {_jobTitle}, {_startYear} {_endYear} ");
             }
         }
-    }
-}
+    
