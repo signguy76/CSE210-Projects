@@ -11,6 +11,7 @@ class Program
             public string _jobTitle;
             public int _startYear;
             public int _endYear;
+            public int _oneMore;
 
             public void Display()
             {
