@@ -1,19 +1,15 @@
 using System;
 using System.Security.Cryptography.X509Certificates;
 
-
-
-        public class Job
-        {
-            public string _company;
-            public string _jobTitle;
-            public int _startYear;
-            public int _endYear;
-            public int _oneMore;
-
-            public void Display()
-            {
-                Console.WriteLine($"{_company}, {_jobTitle}, {_startYear} {_endYear} ");
-            }
-        }
-    
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello Learning04 World!");
+        Job job = new();
+        job._jobTitle = "Engineer";
+        job._startYear = 2010;
+        job._endYear = 2020;
+        job.Display();
+    }
+}
